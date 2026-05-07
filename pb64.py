@@ -1,5 +1,5 @@
 class PB64:
-    def init(self):
+    def __init__(self):
         self.h = 0x5042535449533634
 
     def rotate_left(self, x, n):
